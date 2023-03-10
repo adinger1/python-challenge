@@ -23,7 +23,6 @@ with open(file_path) as csvfile:
 
     # Read the header row first
     csv_header = next(csvreader)
-    #print(f"CSV Header: {csv_header}")
 
     #calculate total number of months. I.e. total number of rows
     #Reads each row of data after the header
